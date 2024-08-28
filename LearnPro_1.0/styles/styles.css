@@ -1,0 +1,111 @@
+body {
+    background: #dddddd;
+}
+
+* {
+    font-family: Andale Mono;
+    margin: 2px;
+    padding: 5px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+select {
+    background: rgb(126, 123, 255);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(126, 123, 255);
+}
+
+.options {
+    background: rgb(126, 123, 255);
+    color: rgb(255, 255, 255);
+}
+
+.button {
+    font-size: 20px;
+    width: 200px;
+    text-decoration: none;
+    background: #4CAF50;
+    color: rgb(255, 255, 255);
+}
+
+.button:hover {
+    transition: 1s;
+    background: #3f9242;
+    text-decoration: underline;
+
+
+
+}
+
+input,
+label {
+    font-size: 20px;
+}
+
+form {
+    
+  text-align: left;
+    width: 33%;
+}
+
+.Donate{
+    background: rgb(255, 67, 83);
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+}
+.Donate:hover{
+    transition: 1s;
+    text-decoration: underline;
+    background: rgb(218, 49, 63);
+}
+
+
+
+
+
+
+
+ /*MOVIL*/
+ @media(max-width:767px) {
+
+    .icon {
+max-width: 40%;
+text-align: center;
+align-items: center;
+float:center;
+
+    }
+form{
+    width: 100%;
+    text-align: center;
+}
+}
+
+
+
+
+
+
+
+
+th{
+    background:#a2c8cc;
+    color: #000;
+}
+td{
+    background: #c5e0dc;
+}/*
+.text{
+    background: rgba(255,255,255,0);
+    outline: none;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 3px solid #000;
+    text-align: center;
+
+}*/
